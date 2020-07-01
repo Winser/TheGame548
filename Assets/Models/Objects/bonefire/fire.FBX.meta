@@ -13,15 +13,15 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: fire
-    second: {fileID: 2100000, guid: 29b93ec880bbc084b915736a8d0e5b83, type: 2}
+    second: {fileID: 2100000, guid: d6d562baf3ca3e544b73c801585be991, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: wood_fire
     second: {fileID: 2100000, guid: 5fc90cb897b4e43498876d39f7ea01a3, type: 2}
   materials:
-    materialImportMode: 2
-    materialName: 2
+    materialImportMode: 1
+    materialName: 0
     materialSearch: 1
     materialLocation: 1
   animations:
@@ -37,7 +37,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
+    importConstraints: 1
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
