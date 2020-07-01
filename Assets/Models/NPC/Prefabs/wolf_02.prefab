@@ -1302,7 +1302,7 @@ GameObject:
   - component: {fileID: 11180392}
   - component: {fileID: 13580392}
   - component: {fileID: 5480392}
-  - component: {fileID: 114000011980198796}
+  - component: {fileID: 1651331576742023877}
   m_Layer: 0
   m_Name: wolf_02
   m_TagString: Untagged
@@ -1378,7 +1378,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
---- !u!114 &114000011980198796
+--- !u!114 &1651331576742023877
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1387,11 +1387,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 180470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 661595340e84ef64b9c28096a9dcafed, type: 3}
+  m_Script: {fileID: 11500000, guid: 737ab44fbe3269dcb829b214d45ebcc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AddRunSpeed: 1
-  AddWalkSpeed: 0.5
+  IsRunning: 0
+  WalkSpeed: 1
+  RunSpeed: 2
 --- !u!1 &193348
 GameObject:
   m_ObjectHideFlags: 0
