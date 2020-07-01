@@ -13,11 +13,11 @@ public class Sunset : MonoBehaviour
     void Update()
     {
         Vector3 rotation = transform.rotation.eulerAngles;
-        rotation.x -= Time.deltaTime/2;
+        rotation.x -= Time.deltaTime/1.5f;
         transform.rotation = Quaternion.Euler(rotation);
-
         this.GetComponent<Light>().color = new Color(r, g, b);
         r += Time.deltaTime/100;
         g -= Time.deltaTime / 100;
+        
     }
 }
