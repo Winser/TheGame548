@@ -689,6 +689,7 @@ MonoBehaviour:
   volume: {fileID: 2043226313}
   settings: {fileID: 777132995}
   menu: {fileID: 2018934299}
+  fader_set_off: {fileID: 433916177}
 --- !u!1 &328327299 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9fb327d6477168844966d05d212e444e,
