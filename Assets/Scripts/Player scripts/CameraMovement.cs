@@ -2,8 +2,6 @@
 
 public class CameraMovement : MonoBehaviour
 {
-    public Camera SelectedCamera;
-
     public float Distance = 50;
     public float MinDistance = 10;
     public float MaxDistance = 50;
@@ -18,14 +16,13 @@ public class CameraMovement : MonoBehaviour
     public float HorizontalSens = 0.3f;
     
 
-    private PlayerData playerData;
-    private Vector3 oldMousePosition;
-    private float oldVerticalAngle;
-    private float oldHorisontalAngle;
+    private PlayerData _playerData;
+    private Vector3 _oldMousePosition;
+    private float _oldVerticalAngle;
+    private float _oldHorisontalAngle;
 
     private void Start() {
-        this.playerData = this.GetComponent<PlayerData>();
-        this.SelectedCamera = this.SelectedCamera ?? Camera.main;
+        this._playerData = this.GetComponent<PlayerData>();
     }
 
     void Update()
@@ -38,16 +35,16 @@ public class CameraMovement : MonoBehaviour
     {
         Vector3 mousePosition = Input.mousePosition;
         if (Input.GetMouseButtonDown(1)) {
-            this.oldVerticalAngle   = this.VerticalAngle;
-            this.oldHorisontalAngle = this.HorizontalAngle;
-            this.oldMousePosition   = mousePosition;
+            this._oldVerticalAngle   = this.VerticalAngle;
+            this._oldHorisontalAngle = this.HorizontalAngle;
+            this._oldMousePosition   = mousePosition;
         }
         if (Input.GetMouseButton(1)) {
-            float change_x = (mousePosition.x - this.oldMousePosition.x);
-            float change_y = (mousePosition.y - this.oldMousePosition.y);
+            float change_x = (mousePosition.x - this._oldMousePosition.x);
+            float change_y = (mousePosition.y - this._oldMousePosition.y);
 
-            this.HorizontalAngle = this.oldHorisontalAngle + change_x * this.HorizontalSens;
-            this.VerticalAngle   = this.oldVerticalAngle   - change_y * this.VerticalSens;
+            this.HorizontalAngle = this._oldHorisontalAngle + change_x * this.HorizontalSens;
+            this.VerticalAngle   = this._oldVerticalAngle   - change_y * this.VerticalSens;
             
             this.VerticalAngle   = Mathf.Clamp(this.VerticalAngle, this.MinVerticalAnge, this.MaxVerticalAnge);
         }
@@ -58,8 +55,9 @@ public class CameraMovement : MonoBehaviour
 
     private void SetCameraPosition()
     {
-        ControlledСharacter character = this.playerData.selectedCharacter;
-        if (character) {
+        ControlledСharacter character = this._playerData.selectedCharacter;
+        Camera camera = this._playerData.selectedCamera;
+        if (character && camera) {
             float horisontalDistance = this.Distance * Mathf.Cos(Mathf.Deg2Rad * this.VerticalAngle);
             
             float offset_up   = this.Distance * Mathf.Sin(Mathf.Deg2Rad * this.VerticalAngle);
@@ -71,8 +69,8 @@ public class CameraMovement : MonoBehaviour
             Vector3 cameraPos = character.transform.position + offsetVector;
             
 
-            this.SelectedCamera.transform.position = cameraPos;
-            this.SelectedCamera.transform.LookAt(character.transform.position);
+            camera.transform.position = cameraPos;
+            camera.transform.LookAt(character.transform.position);
         } 
     }
 }

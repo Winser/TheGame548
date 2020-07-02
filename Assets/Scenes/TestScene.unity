@@ -134,7 +134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.84
+      value: 383
       objectReference: {fileID: 0}
     - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
       propertyPath: m_LocalPosition.y
@@ -142,7 +142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.23
+      value: 259
       objectReference: {fileID: 0}
     - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
       propertyPath: m_LocalRotation.x
@@ -176,6 +176,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5480392, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 19893352, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
       value: 3
@@ -187,12 +191,12 @@ PrefabInstance:
     - target: {fileID: 1651331576742023877, guid: dd7b214f231a42845a11a0745242ec75,
         type: 3}
       propertyPath: WalkSpeed
-      value: 3
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1651331576742023877, guid: dd7b214f231a42845a11a0745242ec75,
         type: 3}
       propertyPath: RunSpeed
-      value: 9
+      value: 600
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
@@ -486,7 +490,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40cb457dbfadf8fe88390b85726e5626, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugMesh: {fileID: 0}
 --- !u!114 &1239806956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -499,7 +502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd2d944e17ca4b7baa1e26a392332a8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SelectedCamera: {fileID: 1620933449}
   Distance: 50
   MinDistance: 10
   MaxDistance: 50
@@ -523,7 +525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedCharacter: {fileID: 80450127}
-  selectedCamera: {fileID: 0}
+  selectedCamera: {fileID: 1620933449}
 --- !u!4 &1239806958
 Transform:
   m_ObjectHideFlags: 0
@@ -615,7 +617,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620933447}
   m_LocalRotation: {x: 0.25881907, y: 0.00000003090862, z: 0.00000003090862, w: 0.9659258}
-  m_LocalPosition: {x: 19.72, y: 14.91, z: -16.6}
+  m_LocalPosition: {x: 383.77, y: 14.91, z: 244.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

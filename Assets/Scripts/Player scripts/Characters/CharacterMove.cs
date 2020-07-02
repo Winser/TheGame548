@@ -4,26 +4,20 @@ using UnityEngine;
 
 public class CharacterMove : MonoBehaviour
 {
-    public Transform debugMesh;
-
-    private PlayerData playerData;
+    private PlayerData _playerData;
 
     void Start()
     {
-        this.playerData = GetComponent<PlayerData>();
+        this._playerData = GetComponent<PlayerData>();
     }
 
     void Update()
     {
         MovableCharacter character;
-        playerData.selectedCharacter.TryGetComponent<MovableCharacter>(out character);
+        _playerData.selectedCharacter.TryGetComponent<MovableCharacter>(out character);
         if (character) {
             Vector3? mouseTargetPosition = this.getMouseTargetPosition();
             if (mouseTargetPosition != null) {
-                if (this.debugMesh) {
-                    this.debugMesh.position = (Vector3)mouseTargetPosition;
-                }
-
                 if (Input.GetMouseButton(0)) {
                     character.Move((Vector3)mouseTargetPosition);
                 }
@@ -34,7 +28,7 @@ public class CharacterMove : MonoBehaviour
 
     private Vector3? getMouseTargetPosition()
     {
-        Camera camera = this.playerData.selectedCamera;
+        Camera camera = this._playerData.selectedCamera;
         if (camera) {
             Vector3 mouseOnScreenPosition = Input.mousePosition + new Vector3(0, 0, 1);
             Vector3 mouseOnWorldPosition = camera.ScreenToWorldPoint(mouseOnScreenPosition);
