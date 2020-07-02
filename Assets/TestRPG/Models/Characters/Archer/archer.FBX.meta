@@ -1,0 +1,762 @@
+fileFormatVersion: 2
+guid: 23ce0c9ca6ae68d42bf0d9a288a77f43
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bip01 R Thigh
+    100002: Bip01 L Toe0
+    100004: Bip01 L Foot
+    100006: Bip01 L Calf
+    100008: Bip01 L Thigh
+    100010: arrow_01
+    100012: arrow_05
+    100014: arrow_04
+    100016: arrow_03
+    100018: arrow_02
+    100020: qiuver_01
+    100022: Long_bow_02
+    100024: arrow_00
+    100026: sword01
+    100028: Bip01 R Finger1
+    100030: Bip01 R Finger0
+    100032: Bip01 R Hand
+    100034: Bip01 R Forearm
+    100036: bone_bow
+    100038: Bip01 L Finger1
+    100040: Bip01 L Finger0
+    100042: Bip01 L Hand
+    100044: Bip01 L Forearm
+    100046: Bip01 Head
+    100048: Bip01 Neck
+    100050: Bip01 Spine2
+    100052: Bip01 Spine1
+    100054: Bip01 Spine
+    100056: Bip01 Pelvis
+    100058: Bip01
+    100060: //RootNode
+    100062: archier
+    100064: Long_bow_01
+    100066: sword
+    100068: arrow_10
+    100070: arrow_09
+    100072: arrow_08
+    100074: arrow_07
+    100076: arrow_06
+    100078: qiuver_02
+    100080: Bip01 R Toe0
+    100082: Bip01 R Foot
+    100084: Bip01 R Calf
+    100086: Bip01 right_Wmount
+    100088: Bip01 left_Wmount
+    100090: Bip01 skirt_right
+    100092: Bip01 skirt_left
+    100094: Bip01 skirt_front
+    100096: Bip01 skirt_back
+    100098: Bip01 back_left_Wmount
+    100100: Bip01 back_shield_mount
+    100102: Bip01 back_right_Wmount
+    100104: Bip01 back_center_Wmount
+    100106: Bip01 Rhand_Weapon
+    100108: Bip01 R Finger12
+    100110: Bip01 R Finger11
+    100112: Bip01 R Finger02
+    100114: Bip01 R Finger01
+    100116: Bip01 R UpperArm
+    100118: Bip01 R Clavicle
+    100120: Bip01 shield_mount
+    100122: Bow_animation_controller
+    100124: Bip01 Rhand_WeaponOpp
+    100126: Bip01 L Finger12
+    100128: Bip01 L Finger11
+    100130: Bip01 L Finger02
+    100132: Bip01 L Finger01
+    100134: Bip01 L UpperArm
+    100136: Bip01 L Clavicle
+    400000: Bip01 R Thigh
+    400002: Bip01 L Toe0
+    400004: Bip01 L Foot
+    400006: Bip01 L Calf
+    400008: Bip01 L Thigh
+    400010: arrow_01
+    400012: arrow_05
+    400014: arrow_04
+    400016: arrow_03
+    400018: arrow_02
+    400020: qiuver_01
+    400022: Long_bow_02
+    400024: arrow_00
+    400026: sword01
+    400028: Bip01 R Finger1
+    400030: Bip01 R Finger0
+    400032: Bip01 R Hand
+    400034: Bip01 R Forearm
+    400036: bone_bow
+    400038: Bip01 L Finger1
+    400040: Bip01 L Finger0
+    400042: Bip01 L Hand
+    400044: Bip01 L Forearm
+    400046: Bip01 Head
+    400048: Bip01 Neck
+    400050: Bip01 Spine2
+    400052: Bip01 Spine1
+    400054: Bip01 Spine
+    400056: Bip01 Pelvis
+    400058: Bip01
+    400060: //RootNode
+    400062: archier
+    400064: Long_bow_01
+    400066: sword
+    400068: arrow_10
+    400070: arrow_09
+    400072: arrow_08
+    400074: arrow_07
+    400076: arrow_06
+    400078: qiuver_02
+    400080: Bip01 R Toe0
+    400082: Bip01 R Foot
+    400084: Bip01 R Calf
+    400086: Bip01 right_Wmount
+    400088: Bip01 left_Wmount
+    400090: Bip01 skirt_right
+    400092: Bip01 skirt_left
+    400094: Bip01 skirt_front
+    400096: Bip01 skirt_back
+    400098: Bip01 back_left_Wmount
+    400100: Bip01 back_shield_mount
+    400102: Bip01 back_right_Wmount
+    400104: Bip01 back_center_Wmount
+    400106: Bip01 Rhand_Weapon
+    400108: Bip01 R Finger12
+    400110: Bip01 R Finger11
+    400112: Bip01 R Finger02
+    400114: Bip01 R Finger01
+    400116: Bip01 R UpperArm
+    400118: Bip01 R Clavicle
+    400120: Bip01 shield_mount
+    400122: Bow_animation_controller
+    400124: Bip01 Rhand_WeaponOpp
+    400126: Bip01 L Finger12
+    400128: Bip01 L Finger11
+    400130: Bip01 L Finger02
+    400132: Bip01 L Finger01
+    400134: Bip01 L UpperArm
+    400136: Bip01 L Clavicle
+    2300000: arrow_01
+    2300002: arrow_05
+    2300004: arrow_04
+    2300006: arrow_03
+    2300008: arrow_02
+    2300010: qiuver_01
+    2300012: Long_bow_02
+    2300014: arrow_00
+    2300016: sword01
+    2300018: bone_bow
+    2300020: sword
+    2300022: arrow_10
+    2300024: arrow_09
+    2300026: arrow_08
+    2300028: arrow_07
+    2300030: arrow_06
+    2300032: qiuver_02
+    2300034: Bow_animation_controller
+    3300000: arrow_01
+    3300002: arrow_05
+    3300004: arrow_04
+    3300006: arrow_03
+    3300008: arrow_02
+    3300010: qiuver_01
+    3300012: Long_bow_02
+    3300014: arrow_00
+    3300016: sword01
+    3300018: bone_bow
+    3300020: sword
+    3300022: arrow_10
+    3300024: arrow_09
+    3300026: arrow_08
+    3300028: arrow_07
+    3300030: arrow_06
+    3300032: qiuver_02
+    3300034: Bow_animation_controller
+    4300000: bone_bow
+    4300002: Bow_animation_controller
+    4300004: sword01
+    4300006: arrow_00
+    4300008: Long_bow_02
+    4300010: qiuver_01
+    4300012: arrow_02
+    4300014: arrow_03
+    4300016: arrow_04
+    4300018: arrow_05
+    4300020: arrow_01
+    4300022: qiuver_02
+    4300024: arrow_06
+    4300026: arrow_07
+    4300028: arrow_08
+    4300030: arrow_09
+    4300032: arrow_10
+    4300034: sword
+    4300036: Long_bow_01
+    4300038: archier
+    7400000: archer
+    7400002: run
+    7400004: walk
+    7400006: Take 001
+    7400008: combat_mode
+    7400010: ready_arrow_fromBack
+    7400012: ready_arrow_fromSide
+    7400014: charging
+    7400016: aim
+    7400018: shoting
+    7400020: hit_from_front
+    7400022: moving_left
+    7400024: moving_right
+    7400026: dying
+    7400028: dodge_backwards
+    7400030: combat_mode2
+    7400032: parry
+    7400034: swing_left
+    7400036: swing_right
+    7400038: thrust
+    7400040: jump_running
+    7400042: standing_free
+    7400044: looking_arround
+    7400046: talking
+    7400048: use_object
+    11100000: //RootNode
+    13700000: archier
+    13700002: Long_bow_01
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    clipAnimations:
+    - name: combat_mode
+      takeName: 
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: ready_arrow_fromBack
+      takeName: 
+      firstFrame: 76
+      lastFrame: 126
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: ready_arrow_fromSide
+      takeName: 
+      firstFrame: 127
+      lastFrame: 172
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: charging
+      takeName: 
+      firstFrame: 173
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: aim
+      takeName: 
+      firstFrame: 209
+      lastFrame: 309
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: shoting
+      takeName: 
+      firstFrame: 310
+      lastFrame: 345
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: hit_from_front
+      takeName: 
+      firstFrame: 346
+      lastFrame: 381
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: moving_left
+      takeName: 
+      firstFrame: 382
+      lastFrame: 402
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: moving_right
+      takeName: 
+      firstFrame: 403
+      lastFrame: 423
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: dying
+      takeName: 
+      firstFrame: 424
+      lastFrame: 489
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: dodge_backwards
+      takeName: 
+      firstFrame: 490
+      lastFrame: 525
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: combat_mode2
+      takeName: 
+      firstFrame: 526
+      lastFrame: 576
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: parry
+      takeName: 
+      firstFrame: 577
+      lastFrame: 612
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: swing_left
+      takeName: 
+      firstFrame: 613
+      lastFrame: 648
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: swing_right
+      takeName: 
+      firstFrame: 649
+      lastFrame: 684
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: thrust
+      takeName: 
+      firstFrame: 685
+      lastFrame: 720
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: walk
+      takeName: 
+      firstFrame: 721
+      lastFrame: 768
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: jump_running
+      takeName: 
+      firstFrame: 771
+      lastFrame: 811
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: run
+      takeName: 
+      firstFrame: 812
+      lastFrame: 834
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: standing_free
+      takeName: 
+      firstFrame: 835
+      lastFrame: 935
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: looking_arround
+      takeName: 
+      firstFrame: 936
+      lastFrame: 1112
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: talking
+      takeName: 
+      firstFrame: 1113
+      lastFrame: 1158
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: use_object
+      takeName: 
+      firstFrame: 1159
+      lastFrame: 1199
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

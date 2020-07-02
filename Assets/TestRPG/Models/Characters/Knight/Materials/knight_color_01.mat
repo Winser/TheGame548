@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: knight_color_01
+  m_Shader: {fileID: 4, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 43e9c5496f7c6434fb10b99f4ab73030, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 89d7acd1dc8e68b4e988834f3743527d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecMap
+        second:
+          m_Texture: {fileID: 2800000, guid: d10b3088a45769a4c8e45e34c70d75c0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TranspMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Reflection
+        second: .5
+      data:
+        first:
+          name: _Cutoff
+        second: .276119411
+      data:
+        first:
+          name: _Shininess
+        second: .740862787
+      data:
+        first:
+          name: _Parallax
+        second: .00499999989
+      data:
+        first:
+          name: _Gloss
+        second: .5
+      data:
+        first:
+          name: _FrezPow
+        second: 512
+      data:
+        first:
+          name: _FrezFalloff
+        second: 4
+      data:
+        first:
+          name: _Metalics
+        second: .5
+      data:
+        first:
+          name: _EdgeAlpha
+        second: 0
+      data:
+        first:
+          name: _SquashAmount
+        second: 1
+      data:
+        first:
+          name: _BaseLight
+        second: .349999994
+      data:
+        first:
+          name: _AO
+        second: 2.4000001
+      data:
+        first:
+          name: _Occlusion
+        second: 7.5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .514925361, g: .514925361, b: .514925361, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .529850721, g: .529850721, b: .529850721, a: 0}
+      data:
+        first:
+          name: _Scale
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 1, g: 1, b: 1, a: .5}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

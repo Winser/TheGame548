@@ -1,0 +1,75 @@
+Fantasy Character – Animated Battle Wizard
+
+Character has 36 animations. 
+
+Here you can see animations preview: http://www.youtube.com/user/MycroSlonik#p/a/u/0/B65VZXNZ6QI
+
+Animation list:
+
+1) MM_combat_mode_A: 0 – 75 fr.,
+
+2) MM_dodge_to_left: 76 – 111 fr.,
+3) MM_dodge_to_right: 112 – 147 fr.,
+
+4) MM_magic_helix_spell: 148 – 218 fr.,
+5) MM_staff_block: 219 – 254 fr.,
+6) MM_staff_earthquake_spell: 255 – 290 fr.,
+
+7) MM_staff_Hit: 291 – 326 fr.,
+8) MM_straight_down_hit: 327 – 362 fr.,
+9) MM_swing_right: 363 – 398 fr.,
+
+10) MM_Taking_hit: 399 – 434 fr.,
+11) MM_dying_B: 435 – 500 fr.,
+
+12) MM_combat_mode_B: 501 – 576 fr.,
+13) MM_duck_below_swing: 577 – 612  fr.,
+
+14) MM_magic_light_spell: 613 – 663 fr.,
+15) MM_magic_shot_stright: 664 – 699 fr.,
+
+16) MM_combat_mode_C: 700 – 775 fr.,
+
+17) MM_buff_spell_A: 776 – 826 fr.,
+18) MM_buff_spell_B: 827 – 917 fr.,
+
+19) MM_fire_ball_spell: 918 – 993 fr.,
+
+20) MM_spell_cast_A: 994 – 1064 fr.,
+21) MM_spell_cast_B: 1065 – 1100 fr.,
+22) MM_spell_cast_C: 1101 – 1136 fr.,
+23) MM_spell_cast_D: 1137 – 1172 fr.,
+
+24) MM_Dying_A: 1173 – 1213 fr.,
+
+25) MM_Standing-Free_A: 1214 – 1314 fr.,
+
+26) MM_making_potion: 1315 – 1345 fr.,
+27) MM_Drinking_potion: 1346 – 1446 fr.,
+
+28) MM_looking_around: 1447 – 1623 fr.,
+
+39) MM_boring: 1624 – 1749 fr.,
+30) MM_shrugs: 1750 – 1795 fr.,
+31) MM_thinking: 1796 – 1871 fr.,
+31) MM_Explanation: 1872 – 1922 fr.,
+
+32) MM_Sneaking: 1923 – 1973 fr.,
+
+33) MM_Run: 1974 – 1996 fr.,
+34) MM_jump_runing: 1997 – 2037 fr.,
+
+35) MM_walk: 2038 – 2088 fr.,
+
+
+Model has 1,173  polygons, 2,206 triangles and 1,184 vertexes.
+
+Textures: diffuse, specular, and normals maps. 
+Textures are TIF file format 2048x2048 for wizard and 1024x1024 for staff.
+
+If you have any question using this model, pleas send it to me. My mail is mr.necturus@gmail.com
+
+
+male, character, fantasy, warrior, wizard, man, armor,  poly, polygonal, video, game, wow, rpg, mmo, soldier, military, fps
+mage, sorcerer, whicher
+

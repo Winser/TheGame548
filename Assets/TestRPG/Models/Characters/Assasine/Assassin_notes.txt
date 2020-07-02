@@ -1,0 +1,67 @@
+Fantasy Character Lady Assassin Animated
+
+Low polygonal game_ready model of woman assassin  in FBX file version 2011.
+
+I used Character Studio MAX to make animations.
+
+This character has 32 animations that cover basic needs for NPC assassin character. 
+
+Here you can see animations preview: http://www.youtube.com/watch?v=PXqnYCCNS_E
+
+Animation list:
+
+1) Run: 0 – 22 fr.,
+2) Walk: 23 – 73 fr.,
+3) Sneaking: 74 – 124 fr.,
+
+4) StandingFree: 125 – 225 fr.,
+5) Looking_around: 226 – 402 fr.,
+
+6) Wapons_ready: 403 – 438 fr.,
+7) Combat_mode: 439 – 489 fr.,
+
+8) Dodge_backwards: 490 – 525 fr.,
+9) Dodge_to_left: 526 – 561 fr.,
+10) Dodge_to_right: 562 – 597 fr.,
+
+11) duck_below_high_swing: 598 – 633 fr.,
+
+12) Hit_from_back: 634 – 669  fr.,
+13) Hit_from_front: 670 – 705 fr.,
+14) Hit_from_left: 706 – 741 fr.,
+15) Hit_from_righ: 742 – 777 fr.,
+
+16) L_swing_mid_left: 778 – 813 fr.,
+17) L_swing_mid_right: 814 – 849 fr.,
+18) L_thrust_mid: 850 – 885 fr.,
+
+19) R_parry_from_stright_down: 886 – 921 fr.,
+20) R_parry_mid_front: 922 – 957 fr.,
+21) R_parry_mid_right: 958 – 993 fr.,
+
+22) R_swing_mid_left: 994 – 1029 fr.,
+23) R_swing_mid_right: 1030 – 1065 fr.,
+24) R_thrust_mid: 1066 – 1101 fr.,
+
+25) Scissors_bow_01: 1102 – 1147 fr.,
+26) Stright_dowble_bow_01: 1148 – 1193 fr.,
+27) Two_stright_jump_bows_01: 1194 – 1239 fr.,
+28) Windmill_bow_01: 1240 – 1283 fr.,
+
+29) Wapons_back: 1284 – 1334 fr.,
+30) Boring: 1335 – 1460 fr.,
+
+31) Dying_A: 1461 – 1526 fr.,
+32) Dying_B: 1527 – 1567 fr.,
+
+One model with 4 swords has 2514 polygons and 2513 vertexes.
+
+Textures: diffuse, specular and normals maps. 
+Textures are TIF file format 2048x2048 for lady and 512x512 for sword and helmet.
+
+If you have any question using this model, pleas send it to me. My mail is mr.necturus@gmail.com
+
+
+female, character, fantasy, warrior, assassin, woman, armor,  poly, polygonal, video, game, wow, rpg, mmo, soldier, military, fps
+fantasy, animated character, 
+

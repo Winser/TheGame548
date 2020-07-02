@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: eddc9110e9fc93446bb862614ac0a34b
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: horse
+    100004: horse back_armor_plate_01
+    100006: horse back_armor_plate_01Opp
+    100008: horse back_armor_plate_02
+    100010: horse back_armor_plate_02Opp
+    100012: horse back_armor_plate_03
+    100014: horse back_armor_plate_03Opp
+    100016: horse back_armor_plate_04
+    100018: horse back_armor_plate_04Opp
+    100020: horse back_armor_plate_05
+    100022: horse back_armor_plate_05Opp
+    100024: horse back_armor_plate_06
+    100026: horse back_armor_plate_06Opp
+    100028: horse back_armor_plate_07
+    100030: horse back_armor_plate_07Opp
+    100032: horse bone_reins
+    100034: horse Head
+    100036: horse HORSEMAN_BONE
+    100038: horse Jaw
+    100040: horse L Calf
+    100042: horse L Clavicle
+    100044: horse L Finger0
+    100046: horse L Foot
+    100048: horse L Forearm
+    100050: horse L Hand
+    100052: horse L HorseLink
+    100054: horse L Thigh
+    100056: horse L Toe0
+    100058: horse L UpperArm
+    100060: horse Neck
+    100062: horse Neck1
+    100064: horse Neck2
+    100066: horse Neck3
+    100068: horse Pelvis
+    100070: horse R Calf
+    100072: horse R Clavicle
+    100074: horse R Finger0
+    100076: horse R Foot
+    100078: horse R Forearm
+    100080: horse R Hand
+    100082: horse R HorseLink
+    100084: horse R Thigh
+    100086: horse R Toe0
+    100088: horse R UpperArm
+    100090: horse Spine
+    100092: horse Spine1
+    100094: horse Spine2
+    100096: horse stirrup
+    100098: horse stirrupOpp
+    100100: horse Tail
+    100102: horse Tail1
+    100104: horse Tail2
+    100106: horse_armor
+    100108: horse_BIP
+    100110: Horse_mask
+    100112: Horse_Reins
+    100114: Horse_saddle
+    100116: Horse_Stirrups
+    400000: //RootNode
+    400002: horse
+    400004: horse back_armor_plate_01
+    400006: horse back_armor_plate_01Opp
+    400008: horse back_armor_plate_02
+    400010: horse back_armor_plate_02Opp
+    400012: horse back_armor_plate_03
+    400014: horse back_armor_plate_03Opp
+    400016: horse back_armor_plate_04
+    400018: horse back_armor_plate_04Opp
+    400020: horse back_armor_plate_05
+    400022: horse back_armor_plate_05Opp
+    400024: horse back_armor_plate_06
+    400026: horse back_armor_plate_06Opp
+    400028: horse back_armor_plate_07
+    400030: horse back_armor_plate_07Opp
+    400032: horse bone_reins
+    400034: horse Head
+    400036: horse HORSEMAN_BONE
+    400038: horse Jaw
+    400040: horse L Calf
+    400042: horse L Clavicle
+    400044: horse L Finger0
+    400046: horse L Foot
+    400048: horse L Forearm
+    400050: horse L Hand
+    400052: horse L HorseLink
+    400054: horse L Thigh
+    400056: horse L Toe0
+    400058: horse L UpperArm
+    400060: horse Neck
+    400062: horse Neck1
+    400064: horse Neck2
+    400066: horse Neck3
+    400068: horse Pelvis
+    400070: horse R Calf
+    400072: horse R Clavicle
+    400074: horse R Finger0
+    400076: horse R Foot
+    400078: horse R Forearm
+    400080: horse R Hand
+    400082: horse R HorseLink
+    400084: horse R Thigh
+    400086: horse R Toe0
+    400088: horse R UpperArm
+    400090: horse Spine
+    400092: horse Spine1
+    400094: horse Spine2
+    400096: horse stirrup
+    400098: horse stirrupOpp
+    400100: horse Tail
+    400102: horse Tail1
+    400104: horse Tail2
+    400106: horse_armor
+    400108: horse_BIP
+    400110: Horse_mask
+    400112: Horse_Reins
+    400114: Horse_saddle
+    400116: Horse_Stirrups
+    2300000: Horse_mask
+    2300002: Horse_saddle
+    3300000: Horse_mask
+    3300002: Horse_saddle
+    4300000: Horse_mask
+    4300002: Horse_saddle
+    4300004: Horse_Stirrups
+    4300006: Horse_Reins
+    4300008: horse
+    4300010: horse_armor
+    7400000: Take 001
+    7400002: horse_run
+    7400004: horse_looking_around
+    7400006: horse_sniff
+    7400008: horse_rear_up
+    7400010: horse_kick
+    7400012: horse_die
+    7400014: horse_kick_ground
+    7400016: horse_eating
+    7400018: horse_walk
+    7400020: horse_trot
+    7400022: horse_idle
+    7400024: horse_jump
+    7400026: horse_running_death
+    11100000: //RootNode
+    13700000: horse
+    13700002: horse_armor
+    13700004: Horse_Reins
+    13700006: Horse_Stirrups
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: horse_idle
+      takeName: 
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: horse_looking_around
+      takeName: 
+      firstFrame: 101
+      lastFrame: 126
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: horse_sniff
+      takeName: 
+      firstFrame: 127
+      lastFrame: 287
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: horse_rear_up
+      takeName: 
+      firstFrame: 288
+      lastFrame: 373
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: horse_kick
+      takeName: 
+      firstFrame: 374
+      lastFrame: 400
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: horse_die
+      takeName: 
+      firstFrame: 401
+      lastFrame: 468
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: horse_kick_ground
+      takeName: 
+      firstFrame: 469
+      lastFrame: 503
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: horse_eating
+      takeName: 
+      firstFrame: 504
+      lastFrame: 604
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: horse_walk
+      takeName: 
+      firstFrame: 605
+      lastFrame: 639
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: horse_trot
+      takeName: 
+      firstFrame: 640
+      lastFrame: 664
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: horse_run
+      takeName: 
+      firstFrame: 665
+      lastFrame: 680
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: horse_jump
+      takeName: 
+      firstFrame: 681
+      lastFrame: 716
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: horse_running_death
+      takeName: 
+      firstFrame: 717
+      lastFrame: 757
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 
