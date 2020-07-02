@@ -1831,7 +1831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   addItem1: {fileID: 100000, guid: a319c6c4c2cc3db49a539719dfcadc6c, type: 3}
-  addItem2: {fileID: 0}
+  addItem2: {fileID: 100004, guid: 22742cca438d2c54cb5519f89158d51e, type: 3}
 --- !u!1 &177814
 GameObject:
   m_ObjectHideFlags: 0

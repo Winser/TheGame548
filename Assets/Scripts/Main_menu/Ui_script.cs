@@ -10,16 +10,21 @@ public class Ui_script : MonoBehaviour
     public Slider volume;
     public GameObject settings;
     public GameObject menu;
-    void Start()
+    public GameObject fader;
+    private float a; // изменение цвета по альфа каналу
+    void Start() 
     {
-        
+       
     }
 
     // Update is called once per frame
     void Update()
     {
+        a += 0.1f;
+        fader.GetComponent<Renderer>().color = new Color(0, 0, 0, 255 - a);
         AudioListener.volume = volume.value;
         GameObject.Find("Volume_val").GetComponent<Text>().text = Convert.ToString(Mathf.Round(volume.value * 100));
+        Debug.Log(a);
     }
     public void New_game()
     {
