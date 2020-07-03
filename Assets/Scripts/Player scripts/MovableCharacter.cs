@@ -5,19 +5,20 @@ using UnityEngine;
 public class MovableCharacter : MonoBehaviour
 {
     public bool IsRunning = false;
-    public float WalkSpeed = 3;
-    public float RunSpeed = 9;
+    public float WalkSpeed = 200;
+    public float RunSpeed = 600;
 
-    private Vector3? targetPosition;
-    private Animation animationController;
+    private Vector3? _targetPosition;
+    private Animation _animationController;
+
     void Start()
     {
-        this.TryGetComponent<Animation>(out this.animationController);
+        this.TryGetComponent<Animation>(out this._animationController);
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        if (targetPosition != null) {
+        if (_targetPosition != null) {
             this.RotateToTarget();
             this.MoveToTarget();
             this.CheckStopMovement();
@@ -26,12 +27,12 @@ public class MovableCharacter : MonoBehaviour
 
     public void Move(Vector3 targetPosition)
     {
-        this.targetPosition = targetPosition;
+        this._targetPosition = targetPosition;
     }
 
     private void RotateToTarget()
     {
-        Vector3 toTarget = (Vector3)targetPosition - transform.position;
+        Vector3 toTarget = (Vector3)_targetPosition - transform.position;
 
         Vector3 v1 = transform.forward;
         v1.y = 0;
@@ -46,26 +47,30 @@ public class MovableCharacter : MonoBehaviour
 
     private void MoveToTarget()
     {
-        if (this.animationController) {
+        if (this._animationController) {
             if (this.IsRunning) {
-                this.animationController.Play("run");
+                this._animationController.Play("run");
             } else {
-                this.animationController.Play("walk");
+                this._animationController.Play("walk");
             }
         }
 
         float currentSpeed = this.IsRunning ? this.RunSpeed : this.WalkSpeed;
-        transform.position += transform.forward * currentSpeed * Time.deltaTime;
-    }
+        Vector3 velocity = transform.forward * currentSpeed * Time.fixedDeltaTime;
 
+        this.GetComponent<Rigidbody>().velocity = velocity;
+    }
+    
     private void CheckStopMovement()
     {
-        if ((transform.position - (Vector3)targetPosition).magnitude < 1) {
-            targetPosition = null;
+        Vector3 toTargetPosition = transform.position - (Vector3)_targetPosition;
+        if ((toTargetPosition).magnitude < 1) {
+            _targetPosition = null;
+            this.GetComponent<Rigidbody>().velocity = Vector3.zero;
 
-            if (this.animationController) {
+            if (this._animationController) {
                 float fadeLength = this.IsRunning ? 0.5f : 0.3f;
-                this.animationController.CrossFade("idle01", fadeLength);
+                this._animationController.CrossFade("idle01", fadeLength);
             }
         }
     }

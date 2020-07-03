@@ -5,6 +5,7 @@ using UnityEngine;
 public class Health_sys : MonoBehaviour
 {
   
+    
     public float head = 150f;
     public float chest = 100f;
     public float right_arm = 100f;
@@ -20,12 +21,6 @@ public class Health_sys : MonoBehaviour
         left_arm = la;
         right_leg = rl;
         left_leg = ll;
-    }
-
-    public void Head_hit()
-    {
-        head -= 50;
-        Debug.Log(head + " from HS");
     }
 }   
 
