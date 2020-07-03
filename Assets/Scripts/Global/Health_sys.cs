@@ -22,6 +22,11 @@ public class Health_sys : MonoBehaviour
         left_leg = ll;
     }
 
+    public void Head_hit()
+    {
+        head -= 50;
+        Debug.Log(head + " from HS");
+    }
 }   
 
 

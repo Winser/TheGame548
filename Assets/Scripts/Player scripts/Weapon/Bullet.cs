@@ -19,9 +19,13 @@ public class Bullet : MonoBehaviour
         Left_hand left_Hand = collision.collider.GetComponent<Left_hand>();
         Right_leg right_Leg = collision.collider.GetComponent<Right_leg>();
         Left_leg left_Leg = collision.collider.GetComponent<Left_leg>();
+
+        Health_sys HP = collision.collider.GetComponent<Health_sys>();
+
         if(head)
         {
             head.OnHit(50);
+            HP.Head_hit();
         }
         if(chest)
         {
