@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         enemy = gameObject.AddComponent<Health_sys>();
+        
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -20,12 +21,9 @@ public class Bullet : MonoBehaviour
         Right_leg right_Leg = collision.collider.GetComponent<Right_leg>();
         Left_leg left_Leg = collision.collider.GetComponent<Left_leg>();
 
-        Health_sys HP = collision.collider.GetComponent<Health_sys>();
-
         if(head)
         {
             head.OnHit(50);
-            HP.Head_hit();
         }
         if(chest)
         {
