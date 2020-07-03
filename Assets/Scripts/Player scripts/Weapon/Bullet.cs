@@ -11,9 +11,13 @@ public class Bullet : MonoBehaviour
         enemy = gameObject.AddComponent<Health_sys>();
         
     }
-    private void Update()
+    private void FixedUpdate()
     {
         Destroy(gameObject, Time.deltaTime * 500f);
+        if (tag == "Tera")
+        {
+            Destroy(gameObject);
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
