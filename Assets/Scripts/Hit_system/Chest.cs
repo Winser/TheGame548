@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Chest : MonoBehaviour
 {
-    float hp;
+    public float hp;
+    public float Armor = 1;
     public GameObject unit;
     private void Start()
     {
@@ -13,7 +14,7 @@ public class Chest : MonoBehaviour
     }
     public void OnHit(float Dmg)
     {
-        hp -= Dmg;
+        hp -= Dmg * Armor;
         Debug.Log(hp);
     }
 }

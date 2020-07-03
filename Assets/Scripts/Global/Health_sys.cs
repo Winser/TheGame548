@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class Health_sys : MonoBehaviour
 {
-  
-    
+
     public float head = 150f;
     public float chest = 100f;
     public float right_arm = 100f;
+    public float left_leg = 100f;
     public float left_arm = 100f;
     public float right_leg = 100f;
-    public float left_leg = 100f;
+
+    void Update()
+    {
+        
+    }
 
     public void Health_set(float h, float c, float ra, float la, float rl, float ll)
     {
@@ -22,6 +26,11 @@ public class Health_sys : MonoBehaviour
         right_leg = rl;
         left_leg = ll;
     }
+
+  /* public float H_hit(float Dmg)
+    {
+        return head -= Dmg;
+    }*/
 }   
 
 

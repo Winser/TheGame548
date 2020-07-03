@@ -5,11 +5,15 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public Health_sys enemy;
-    
+    public float Bullet_dmg;
     void Start()
     {
         enemy = gameObject.AddComponent<Health_sys>();
         
+    }
+    private void Update()
+    {
+        Destroy(gameObject, Time.deltaTime * 500f);
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -23,29 +27,36 @@ public class Bullet : MonoBehaviour
 
         if(head)
         {
-            head.OnHit(50);
+            head.OnHit(Bullet_dmg*2);
+            Debug.Log(collision.gameObject.name);
+            //enemy.H_hit(50);
         }
         if(chest)
         {
-            chest.OnHit(30);
+            chest.OnHit(Bullet_dmg);
+            Debug.Log(collision.gameObject.name);
         }
         if(right_Hand)
         {
-            right_Hand.OnHit(15);
+            right_Hand.OnHit(Bullet_dmg * 0.8f);
+            Debug.Log(collision.gameObject.name);
         }
         if (left_Hand)
         {
-            left_Hand.OnHit(15);
+            left_Hand.OnHit(Bullet_dmg * 0.8f);
+            Debug.Log(collision.gameObject.name);
         }
         if (right_Leg)
         {
-            right_Leg.OnHit(15);
+            right_Leg.OnHit(Bullet_dmg * 0.8f);
+            Debug.Log(collision.gameObject.name);
         }
         if (left_Leg)
         {
-            left_Leg.OnHit(15);
+            left_Leg.OnHit(Bullet_dmg * 0.8f);
+            Debug.Log(collision.gameObject.name);
         }
         Destroy(gameObject);
-
+        
     }
 }

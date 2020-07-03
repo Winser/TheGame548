@@ -9,7 +9,7 @@ public class BulletCreator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
             GameObject Bullet = Instantiate(BulletPrefab, transform.position, transform.rotation);
             Bullet.GetComponent<Rigidbody>().velocity = transform.forward * BulletVelocity;
