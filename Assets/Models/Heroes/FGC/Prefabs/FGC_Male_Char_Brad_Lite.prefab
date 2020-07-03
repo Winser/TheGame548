@@ -956,6 +956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99b6ed7dd658ceb41a2a8d9416214263, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unit: {fileID: 177088}
 --- !u!1 &151404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,6 +1269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3696e987d0200a14ab357034a5225390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unit: {fileID: 177088}
 --- !u!1 &164248
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,6 +1390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca7846ecf9dab6e4bbbaf79f73b948ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unit: {fileID: 177088}
 --- !u!1 &167748
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,6 +1542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98f34624483893a488b752538400df77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unit: {fileID: 177088}
 --- !u!1 &174442
 GameObject:
   m_ObjectHideFlags: 0
@@ -1901,6 +1905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f94353671cbb14a971ebbd7aab5cf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unit: {fileID: 177088}
 --- !u!1 &177088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1914,6 +1919,7 @@ GameObject:
   - component: {fileID: 14320336}
   - component: {fileID: 11497290}
   - component: {fileID: 11438246}
+  - component: {fileID: 1745964135}
   m_Layer: 0
   m_Name: FGC_Male_Char_Brad_Lite
   m_TagString: Untagged
@@ -2001,6 +2007,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   addItem1: {fileID: 100000, guid: a319c6c4c2cc3db49a539719dfcadc6c, type: 3}
   addItem2: {fileID: 100004, guid: 22742cca438d2c54cb5519f89158d51e, type: 3}
+--- !u!114 &1745964135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28bd86211c7c844d8d2767accfb4090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: 150
+  chest: 200
+  right_arm: 110
+  left_arm: 120
+  right_leg: 90
+  left_leg: 144
 --- !u!1 &177814
 GameObject:
   m_ObjectHideFlags: 0
