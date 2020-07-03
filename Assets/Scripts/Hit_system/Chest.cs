@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Chest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    float hp;
+    public GameObject unit;
+    private void Start()
     {
-        
-    }
+        hp = unit.GetComponent<Health_sys>().chest;
 
-    // Update is called once per frame
-    void Update()
+    }
+    public void OnHit(float Dmg)
     {
-        
+        hp -= Dmg;
+        Debug.Log(hp);
     }
 }

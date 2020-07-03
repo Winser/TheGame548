@@ -648,10 +648,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1745964129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77f443047dd4def489e535499eea385b, type: 3}
+  m_Script: {fileID: 11500000, guid: b28bd86211c7c844d8d2767accfb4090, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hs: {fileID: 0}
+  head: 150
+  chest: 200
+  right_arm: 110
+  left_arm: 120
+  right_leg: 90
+  left_leg: 144
 --- !u!1 &1834309454
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,7 +957,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 177088, guid: 3081e3e8a9dc83640bd9bb991640c305, type: 3}
       propertyPath: m_Name
-      value: FGC_Male_Char_Brad_Lite
+      value: Char_Brad_LiteBrad_Lite
       objectReference: {fileID: 0}
     - target: {fileID: 480080, guid: 3081e3e8a9dc83640bd9bb991640c305, type: 3}
       propertyPath: m_LocalPosition.x
@@ -998,5 +1003,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 807318525638892910, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: unit
+      value: 
+      objectReference: {fileID: 1745964129}
+    - target: {fileID: 1787126715067710337, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: unit
+      value: 
+      objectReference: {fileID: 1745964129}
+    - target: {fileID: 4250175916626572262, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: unit
+      value: 
+      objectReference: {fileID: 1745964129}
+    - target: {fileID: 4254694116404443363, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: unit
+      value: 
+      objectReference: {fileID: 1745964129}
+    - target: {fileID: 4502644500312742828, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: unit
+      value: 
+      objectReference: {fileID: 1745964129}
+    - target: {fileID: 6344896682782277472, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: unit
+      value: 
+      objectReference: {fileID: 1745964129}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3081e3e8a9dc83640bd9bb991640c305, type: 3}
