@@ -10,25 +10,16 @@ public class Ui_script : MonoBehaviour
     public Slider volume;
     public GameObject settings;
     public GameObject menu;
-    public GameObject fader_set_off;
-    private float timer;
-    void Start() 
+    void Start()
     {
-       
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        timer += Time.deltaTime;
-        if(timer>= 3)
-        {
-            fader_set_off.SetActive(false);
-        }
         AudioListener.volume = volume.value;
         GameObject.Find("Volume_val").GetComponent<Text>().text = Convert.ToString(Mathf.Round(volume.value * 100));
-
     }
     public void New_game()
     {

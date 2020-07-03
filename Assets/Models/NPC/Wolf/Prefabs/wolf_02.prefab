@@ -1302,7 +1302,6 @@ GameObject:
   - component: {fileID: 11180392}
   - component: {fileID: 13580392}
   - component: {fileID: 5480392}
-  - component: {fileID: 280270125939529141}
   - component: {fileID: 1651331576742023877}
   m_Layer: 0
   m_Name: wolf_02
@@ -1379,18 +1378,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
---- !u!114 &280270125939529141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 180470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d439c04dceb6056888f5ec006ec04532, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1651331576742023877
 MonoBehaviour:
   m_ObjectHideFlags: 0
