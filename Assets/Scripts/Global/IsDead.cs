@@ -31,13 +31,9 @@ public class IsDead : MonoBehaviour
 
         if (dead)
         {
-           anim.SetLayerWeight(1, 1f);
-           anim.SetInteger("CurrentAction", 1);
+            anim.Play("Dying");
         }
-        else
-        {
-            anim.SetInteger("CurrentAction", 0);
-        }
+       
     }
 
 
