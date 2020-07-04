@@ -1403,9 +1403,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 737ab44fbe3269dcb829b214d45ebcc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DebugPoint: {fileID: 0}
   IsRunning: 0
-  WalkSpeed: 1
-  RunSpeed: 2
+  WalkSpeed: 3
+  RunSpeed: 9
 --- !u!1 &193348
 GameObject:
   m_ObjectHideFlags: 0
