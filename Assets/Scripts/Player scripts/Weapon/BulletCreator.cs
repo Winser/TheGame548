@@ -16,8 +16,8 @@ public class BulletCreator : MonoBehaviour
             GameObject Bullet = Instantiate(BulletPrefab, transform.position, transform.rotation);
             Bullet.GetComponent<Rigidbody>().velocity = transform.parent.forward * BulletVelocity;
             this.GetComponent<ParticleSystem>().Play();
-          
-        }
+            this.GetComponent<AudioSource>().Play();
 
+        }
     }
 }
