@@ -81,11 +81,7 @@ public class ControlScript : MonoBehaviour {
 		//With this method we aren't looking for a button being held down OR being released, but just using the key down to listen for key presses.
 		
 		if(Input.GetKeyDown ("1")){
-			if(myAnimator.GetInteger("CurrentAction") == 0){
-				myAnimator.SetInteger("CurrentAction", 1);				
-			} else if (myAnimator.GetInteger ("CurrentAction") == 1){
-				myAnimator.SetInteger ("CurrentAction", 0);
-			}
+			myAnimator.Play("Aiming");
 		}
 		
 		
@@ -103,11 +99,7 @@ public class ControlScript : MonoBehaviour {
 		//As soon as they are done standing up they will go the next state ("idle/walk").
 		
 		if(Input.GetKeyDown ("2")){
-			if(myAnimator.GetInteger ("CurrentAction") == 0){
-				myAnimator.SetInteger ("CurrentAction", 2);				
-			} else if (myAnimator.GetInteger ("CurrentAction") == 2){
-				myAnimator.SetInteger ("CurrentAction", 0);
-			}
+			myAnimator.Play("Fire");
 		}
 		
 		//Example #5:  Combining animations with Layers
@@ -164,8 +156,8 @@ public class ControlScript : MonoBehaviour {
 		GUI.Label (new Rect(0, 75, 200, 25), "Strafe Right: D");
 		GUI.Label (new Rect(0, 100, 200, 25), "Turn Left: Q");
 		GUI.Label (new Rect(0, 125, 200, 25), "Turn Right: E");
-		GUI.Label (new Rect(0, 150, 200, 25), "Toggle Dance: 1");
-		GUI.Label (new Rect(0, 175, 200, 25), "Toggle Kneeling: 2");
+		GUI.Label (new Rect(0, 150, 200, 25), "Aiming: 1");
+		GUI.Label (new Rect(0, 175, 200, 25), "Fire: 2");
 		GUI.Label (new Rect(0, 200, 200, 25), "Wave (Layer): 3");
 	}
 }
