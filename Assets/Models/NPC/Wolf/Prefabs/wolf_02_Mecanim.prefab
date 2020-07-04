@@ -282,7 +282,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -335,7 +335,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -388,7 +388,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationX:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -441,7 +441,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -9662,7 +9662,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -9715,7 +9715,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -23909,6 +23909,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 480406}
+  - component: {fileID: 1027681716}
+  - component: {fileID: 1027681715}
   m_Layer: 0
   m_Name: Bip02 R Hand
   m_TagString: Untagged
@@ -23931,6 +23933,35 @@ Transform:
   m_Father: {fileID: 480408}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1027681716
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1
+  m_Height: 7.35
+  m_Direction: 0
+  m_Center: {x: 1.07, y: 0, z: 0}
+--- !u!114 &1027681715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a5ebc7a471a8a147bf0c3b11110d309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 0
+  Armor: 1
+  unit: {fileID: 180470}
 --- !u!1 &180410
 GameObject:
   m_ObjectHideFlags: 0
@@ -24063,6 +24094,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 480414}
+  - component: {fileID: 1882405316}
+  - component: {fileID: 1882405315}
   m_Layer: 0
   m_Name: Bip02 Ponytail1
   m_TagString: Untagged
@@ -24085,6 +24118,34 @@ Transform:
   m_Father: {fileID: 480418}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1882405316
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.02
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1882405315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca7846ecf9dab6e4bbbaf79f73b948ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 0
+  Armor: 1
+  unit: {fileID: 180470}
 --- !u!1 &180420
 GameObject:
   m_ObjectHideFlags: 0
@@ -24249,6 +24310,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 480424}
+  - component: {fileID: 968584361}
+  - component: {fileID: 968584362}
   m_Layer: 0
   m_Name: Bip02 L Hand
   m_TagString: Untagged
@@ -24271,6 +24334,35 @@ Transform:
   m_Father: {fileID: 480426}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &968584361
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180430}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1
+  m_Height: 7.35
+  m_Direction: 0
+  m_Center: {x: 1.07, y: 0, z: 0}
+--- !u!114 &968584362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f94353671cbb14a971ebbd7aab5cf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 0
+  Armor: 1
+  unit: {fileID: 180470}
 --- !u!1 &180432
 GameObject:
   m_ObjectHideFlags: 0
@@ -24452,7 +24544,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180442}
   m_LocalRotation: {x: -3.9967202e-14, y: -0.00000024173534, z: 0.08715579, w: 0.9961947}
-  m_LocalPosition: {x: -2.2359924, y: -0.001707077, z: -0.0000000047384674}
+  m_LocalPosition: {x: -2.79, y: -0.1, z: -0}
   m_LocalScale: {x: 1, y: 0.9999999, z: 1}
   m_Children:
   - {fileID: 480438}
@@ -24468,6 +24560,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 480460}
+  - component: {fileID: 1189947485}
+  - component: {fileID: 1189947486}
   m_Layer: 0
   m_Name: Bip02 Spine
   m_TagString: Untagged
@@ -24490,6 +24584,35 @@ Transform:
   m_Father: {fileID: 480466}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1189947485
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180444}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.76
+  m_Height: 14.44
+  m_Direction: 0
+  m_Center: {x: -3.01, y: 1.53, z: 0}
+--- !u!114 &1189947486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b6ed7dd658ceb41a2a8d9416214263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 0
+  Armor: 1
+  unit: {fileID: 180470}
 --- !u!1 &180446
 GameObject:
   m_ObjectHideFlags: 0
@@ -24529,6 +24652,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 480444}
+  - component: {fileID: 91863475}
+  - component: {fileID: 91863474}
   m_Layer: 0
   m_Name: Bip02 R Toe0
   m_TagString: Untagged
@@ -24551,6 +24676,35 @@ Transform:
   m_Father: {fileID: 480446}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &91863475
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180448}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1
+  m_Height: 7.35
+  m_Direction: 1
+  m_Center: {x: 1.07, y: 2.63, z: 0}
+--- !u!114 &91863474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f34624483893a488b752538400df77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 0
+  Armor: 1
+  unit: {fileID: 180470}
 --- !u!1 &180450
 GameObject:
   m_ObjectHideFlags: 0
@@ -24683,6 +24837,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 480452}
+  - component: {fileID: 671181313}
+  - component: {fileID: 671181314}
   m_Layer: 0
   m_Name: Bip02 L Toe0
   m_TagString: Untagged
@@ -24705,6 +24861,35 @@ Transform:
   m_Father: {fileID: 480454}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &671181313
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1
+  m_Height: 7.35
+  m_Direction: 1
+  m_Center: {x: 1.07, y: 2.63, z: 0}
+--- !u!114 &671181314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3696e987d0200a14ab357034a5225390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 0
+  Armor: 1
+  unit: {fileID: 180470}
 --- !u!1 &180460
 GameObject:
   m_ObjectHideFlags: 0
@@ -24875,9 +25060,11 @@ GameObject:
   - component: {fileID: 9573564}
   - component: {fileID: 13580392}
   - component: {fileID: 5480392}
+  - component: {fileID: 1882405314}
+  - component: {fileID: 1882405323}
   m_Layer: 0
   m_Name: wolf_02_Mecanim
-  m_TagString: Untagged
+  m_TagString: Wolf
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24948,3 +25135,40 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
+--- !u!114 &1882405314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca254d740ee23d46a4edb866bfbf4ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: 150
+  chest: 100
+  right_arm: 100
+  left_leg: 100
+  left_arm: 100
+  right_leg: 100
+--- !u!114 &1882405323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7313ec448731d294bb59564a93577185, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dead: 0
+  Head: {fileID: 180418}
+  chest: {fileID: 180444}
+  LeftArm: {fileID: 180430}
+  RightArm: {fileID: 180408}
+  LeftLeg: {fileID: 180458}
+  RightLeg: {fileID: 180448}

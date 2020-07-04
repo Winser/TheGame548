@@ -29,11 +29,15 @@ public class IsDead : MonoBehaviour
             dead = false;
         }
 
-        if (dead)
+
+        if (dead && tag == "Player")
         {
             anim.Play("Dying");
         }
-       
+        if(dead && tag == "Wolf")
+        {
+            anim.Play("dead");
+        }
     }
 
 
