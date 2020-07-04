@@ -283,6 +283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ak74m
       objectReference: {fileID: 0}
+    - target: {fileID: 1458046410508832, guid: cad07940ee7c44f419bbedb32b966f78, type: 3}
+      propertyPath: m_TagString
+      value: Stuff
+      objectReference: {fileID: 0}
     - target: {fileID: 4612571006016442, guid: cad07940ee7c44f419bbedb32b966f78, type: 3}
       propertyPath: m_LocalPosition.x
       value: 458.24
@@ -811,6 +815,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WarCleave
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9fb327d6477168844966d05d212e444e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Stuff
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fb327d6477168844966d05d212e444e, type: 3}

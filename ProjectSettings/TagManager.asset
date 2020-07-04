@@ -7,6 +7,8 @@ TagManager:
   - Tera
   - Enemy
   - Wolf
+  - Stuff
+  - Useful
   layers:
   - Default
   - TransparentFX
