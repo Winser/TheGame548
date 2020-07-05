@@ -6,13 +6,17 @@ using UnityEngine.AI;
 public class MovableCharacter : MonoBehaviour
 {
     public Transform DebugPoint;
-
+    public bool IsAiming = false;
     public bool IsRunning = false;
     public float WalkSpeed = 200;
     public float RunSpeed = 600;
 
+    //private animation timer
+    private float timer;
+    
+
     // private Vector3? _targetPosition;
-    private Animation _animationController;
+    private Animator _animationController;
     private NavMeshAgent _navMeshAgent;
     private List<Vector3> _path;
 
@@ -27,17 +31,30 @@ public class MovableCharacter : MonoBehaviour
 
     void Start()
     {
-        this.TryGetComponent<Animation>(out this._animationController);
+        this.TryGetComponent<Animator>(out this._animationController);
         this._navMeshAgent = gameObject.AddComponent(typeof(NavMeshAgent)) as NavMeshAgent;
+       
     }
 
     void FixedUpdate()
     {
-        if (this.HasNexPoint) {
-            this.RotateToTarget();
-            this.MoveToTarget();
-        } else {
-            this.StopMovement();
+        if (tag == "Player")
+        {
+            this.Timer();
+            this.Aiming_fire();
+            if (!IsAiming && timer > 2f)
+            {
+                if (this.HasNexPoint)
+                {
+                    this.RotateToTarget();
+                    this.MoveToTarget();
+                }
+                /*else
+                {
+                    this.StopMovement();
+                }*/
+
+            }
         }
     }
 
@@ -96,9 +113,9 @@ public class MovableCharacter : MonoBehaviour
 
         if (this._animationController) {
             if (this.IsRunning) {
-                this._animationController.Play("run");
+                this._animationController.Play("WalkFWD");
             } else {
-                this._animationController.Play("walk");
+                this._animationController.Play("WalkFWD");
             }
         }
 
@@ -111,12 +128,48 @@ public class MovableCharacter : MonoBehaviour
             this._path.RemoveAt(0);
         }
     }
-    
-    private void StopMovement()
+
+    /* private void StopMovement()
+     {
+         if (this._animationController) {
+             float fadeLength = this.IsRunning ? 0.5f : 0.3f;
+             this._animationController.CrossFade("WalkFWD", fadeLength);
+         }
+     }*/
+    private void Aiming_fire()
     {
-        if (this._animationController) {
-            float fadeLength = this.IsRunning ? 0.5f : 0.3f;
-            this._animationController.CrossFade("idle01", fadeLength);
+        if (Input.GetKeyDown("1"))
+        {
+            if (!IsAiming)
+            {
+                IsAiming = true;
+                _animationController.Play("Aiming");
+            }
+            else
+            {
+                IsAiming = false;
+                _animationController.Play("IdleWalkingBlend");
+            }
         }
+        if (Input.GetMouseButtonDown(0) && IsAiming)
+        {
+            _animationController.Play("Fire");
+            IsAiming = false;
+        }
+    }
+
+    private void Timer()
+    {
+        
+        if (IsAiming)
+        {
+            timer = 0f;
+        }
+        else
+        {
+            
+            timer += Time.deltaTime;
+        }
+        
     }
 }
