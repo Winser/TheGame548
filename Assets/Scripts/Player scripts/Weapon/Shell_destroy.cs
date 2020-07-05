@@ -6,6 +6,6 @@ public class Shell_destroy : MonoBehaviour
 {
     private void FixedUpdate()
     {
-        Destroy(gameObject, Time.deltaTime * 500f);
+        Destroy(gameObject, Time.deltaTime * 5000f);
     }
 }

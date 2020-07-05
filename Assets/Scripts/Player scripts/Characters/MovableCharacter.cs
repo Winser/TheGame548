@@ -140,16 +140,8 @@ public class MovableCharacter : MonoBehaviour
     {
         if (Input.GetKeyDown("1"))
         {
-            if (!IsAiming)
-            {
                 IsAiming = true;
                 _animationController.Play("Aiming");
-            }
-            else
-            {
-                IsAiming = false;
-                _animationController.Play("IdleWalkingBlend");
-            }
         }
         if (Input.GetMouseButtonDown(0) && IsAiming)
         {

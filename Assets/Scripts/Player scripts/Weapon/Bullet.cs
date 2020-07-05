@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Destroy(gameObject, Time.deltaTime * 500f);
+        Destroy(gameObject, Time.deltaTime * 5000f);
         if (tag == "Tera")
         {
             Destroy(gameObject);
