@@ -8,31 +8,29 @@ public class Shell_creator : MonoBehaviour
     public GameObject ShellPrefab;
     public float Velocity = 5f;
     public bool IsAiming = false;
-    // Update is called once per frame
-    void Update()
-    {
+    public float CD;
 
-        if (Input.GetKeyDown("1"))
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        if (CD > 3f)
         {
-            if (IsAiming)
+            if (Input.GetKeyDown("1"))
             {
-                IsAiming = false;
-            }
-            else
-            {
+
                 IsAiming = true;
             }
-        }
-        if (IsAiming)
-        {
-            if (Input.GetMouseButtonDown(0))
+            if (IsAiming)
             {
-                GameObject Shell = Instantiate(ShellPrefab, transform.position, transform.rotation);
-                Shell.GetComponent<Rigidbody>().velocity = transform.parent.right * Velocity;
-                IsAiming = false;
+                if (Input.GetMouseButtonDown(0))
+                {
+                    GameObject Shell = Instantiate(ShellPrefab, transform.position, transform.rotation);
+                    Shell.GetComponent<Rigidbody>().velocity = transform.parent.right * Velocity;
+                    IsAiming = false;
+                    CD = 0;
+                }
             }
         }
-       
+        CD += Time.deltaTime;
     }
- 
 }

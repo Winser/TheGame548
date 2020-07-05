@@ -9,12 +9,14 @@ public class BulletCreator : MonoBehaviour
     public GameObject Shell;
     public float BulletVelocity = 20f;
     public bool is_automatic = false;
-    public bool IsAiming = false;
+    public static bool IsAiming = false;
     public int Ammo = 25;
     //cool donw timer
-    public float CD;
+    public static float CD;
+   
     void Update()
     {
+        
         CoolDown();
         Reload();
         if (CD > 3)
@@ -70,7 +72,6 @@ public class BulletCreator : MonoBehaviour
         }
         else
         {
-
             Shell.gameObject.SetActive(false);
             GameObject.Find("Empty_sound").GetComponent<AudioSource>().Play();
             IsAiming = false;
