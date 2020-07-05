@@ -232,17 +232,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: controlled_wolf_01
       objectReference: {fileID: 0}
-    - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 21.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
-      propertyPath: m_LocalPosition.y
+    - target: {fileID: 180470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 454.98627
+      objectReference: {fileID: 0}
+    - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 25.3
+      value: 138.71494
       objectReference: {fileID: 0}
     - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
       propertyPath: m_LocalRotation.x
@@ -331,6 +335,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 480080, guid: 3081e3e8a9dc83640bd9bb991640c305, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 14320336, guid: 3081e3e8a9dc83640bd9bb991640c305, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -484,6 +492,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 110.25, y: 94.32, z: 123.9}
+--- !u!1 &740548715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 177088, guid: 3081e3e8a9dc83640bd9bb991640c305,
+    type: 3}
+  m_PrefabInstance: {fileID: 524741222}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &740548716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740548715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 737ab44fbe3269dcb829b214d45ebcc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugPoint: {fileID: 0}
+  IsRunning: 0
+  WalkSpeed: 3
+  RunSpeed: 9
+--- !u!114 &740548717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740548715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d439c04dceb6056888f5ec006ec04532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &855035138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -495,17 +537,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: controlled_wolf_02
       objectReference: {fileID: 0}
-    - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 37.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
-      propertyPath: m_LocalPosition.y
+    - target: {fileID: 180470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 470.56625
+      objectReference: {fileID: 0}
+    - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.63
+      value: 133.04494
       objectReference: {fileID: 0}
     - target: {fileID: 480470, guid: dd7b214f231a42845a11a0745242ec75, type: 3}
       propertyPath: m_LocalRotation.x
@@ -985,7 +1031,7 @@ PrefabInstance:
         type: 3}
       propertyPath: selectedCharacter
       value: 
-      objectReference: {fileID: 2136803509}
+      objectReference: {fileID: 740548717}
     - target: {fileID: 1942333279388291912, guid: 355c7b14128267f398e8d41a0992fb73,
         type: 3}
       propertyPath: selectedCamera
@@ -1192,15 +1238,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4864ffb159f30048a3bdafeae646afb, type: 3}
---- !u!114 &2136803509 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 280270125939529141, guid: dd7b214f231a42845a11a0745242ec75,
-    type: 3}
-  m_PrefabInstance: {fileID: 460559804}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d439c04dceb6056888f5ec006ec04532, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
