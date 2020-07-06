@@ -540,6 +540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 468734964}
   mouseSense: 150
+  isAiming: 0
 --- !u!1 &840904597
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,6 +848,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 1610495169284267280, guid: 72d48227fa0378e438d22fe81ed74101,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2212030960433712531, guid: 72d48227fa0378e438d22fe81ed74101,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -1092,6 +1098,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5348036364721850135, guid: 72d48227fa0378e438d22fe81ed74101,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6380111049824141847, guid: 72d48227fa0378e438d22fe81ed74101,
         type: 3}
