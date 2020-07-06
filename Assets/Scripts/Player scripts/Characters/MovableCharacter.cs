@@ -113,7 +113,7 @@ public class MovableCharacter : MonoBehaviour
 
         if (this._animationController) {
             if (this.IsRunning) {
-                this._animationController.Play("WalkFWD");
+                this._animationController.Play("Running");
             } else {
                 this._animationController.Play("WalkFWD");
             }

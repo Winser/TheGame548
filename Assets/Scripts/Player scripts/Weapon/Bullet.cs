@@ -33,7 +33,8 @@ public class Bullet : MonoBehaviour
         {
             head.OnHit(Bullet_dmg*2);
             Debug.Log(collision.gameObject.name);
-            //enemy.H_hit(50);
+            //enemy.Head(Bullet_dmg * 2);
+            
         }
         if(chest)
         {

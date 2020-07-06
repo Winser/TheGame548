@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseSensitivity: 30
-  speed: 30
+  speed: 35
   minimumX: -360
   maximumX: 360
   minimumY: -60

@@ -797,6 +797,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 910043032, guid: 3081e3e8a9dc83640bd9bb991640c305, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3081e3e8a9dc83640bd9bb991640c305, type: 3}
 --- !u!1 &2123628245
@@ -974,16 +978,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1358299038770801351, guid: 72d48227fa0378e438d22fe81ed74101,
-        type: 3}
-      propertyPath: mouseSensitivity
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 1358299038770801351, guid: 72d48227fa0378e438d22fe81ed74101,
-        type: 3}
-      propertyPath: speed
-      value: 35
-      objectReference: {fileID: 0}
     - target: {fileID: 1358299038770801368, guid: 72d48227fa0378e438d22fe81ed74101,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1043,6 +1037,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358299038770801371, guid: 72d48227fa0378e438d22fe81ed74101,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359114924078668445, guid: 72d48227fa0378e438d22fe81ed74101,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72d48227fa0378e438d22fe81ed74101, type: 3}
