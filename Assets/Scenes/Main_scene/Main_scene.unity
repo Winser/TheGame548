@@ -539,6 +539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 468734964}
+  mouseSense: 150
 --- !u!1 &840904597
 GameObject:
   m_ObjectHideFlags: 0

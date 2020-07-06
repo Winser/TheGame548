@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Aiming : MonoBehaviour
 {
-   
-    public Transform weapon;
-    private float ray_lenght = 100f;
-    private float X;
-    private float Y;
-    private Vector3 mouse;
 
+    public Transform weapon;
+    private Vector3 start;
+    private float ray_lenght = 100f;
+    public float mouseSense = 5f;
+    public bool isAiming = false;
     void Start()
     {
         
@@ -19,22 +18,24 @@ public class Aiming : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawRay(weapon.position, weapon.forward * ray_lenght,Color.red);
-        Ray ray = new Ray(weapon.position, weapon.forward * ray_lenght);
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit));
+        isAiming = MovableCharacter.IsAiming;
         Rotation();
-        
+
     }
 
-    private void Rotation ()
+    private void Rotation()
     {
-        mouse =  Input.mousePosition;
-        X = mouse.x;
-        Y = mouse.y;
+        if (isAiming)
+        {
+            Debug.DrawRay(weapon.position, weapon.forward * ray_lenght, Color.red);
+            weapon.Rotate(Vector3.up, Input.GetAxis("Mouse X") * Time.deltaTime * mouseSense);
+            weapon.Rotate(Vector3.right, Input.GetAxis("Mouse Y") * Time.deltaTime * mouseSense);
 
-        weapon.rotation = Quaternion.Euler(X, Y, 0);
-        
+        }
+        else
+        {
+            
+        }
     }
-  
+
 }
