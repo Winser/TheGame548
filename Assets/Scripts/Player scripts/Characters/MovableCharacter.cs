@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class MovableCharacter : MonoBehaviour
 {
     public Transform DebugPoint;
-    public bool IsAiming = false;
+    public static bool IsAiming = false;
     public bool IsRunning = false;
     public float WalkSpeed = 200;
     public float RunSpeed = 600;
