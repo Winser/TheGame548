@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Aiming : MonoBehaviour
 {
-
+    public Camera cam;
+    private float x;
     public Transform weapon;
-    private Vector3 start;
+    private Vector3 VorlPos;
     private float ray_lenght = 100f;
     public float mouseSense = 5f;
     public bool isAiming = false;
@@ -20,7 +21,6 @@ public class Aiming : MonoBehaviour
     {
         isAiming = MovableCharacter.IsAiming;
         Rotation();
-
     }
 
     private void Rotation()
@@ -28,8 +28,16 @@ public class Aiming : MonoBehaviour
         if (isAiming)
         {
             Debug.DrawRay(weapon.position, weapon.forward * ray_lenght, Color.red);
-            weapon.Rotate(Vector3.up, Input.GetAxis("Mouse X") * Time.deltaTime * mouseSense);
-            weapon.Rotate(Vector3.right, Input.GetAxis("Mouse Y") * Time.deltaTime * mouseSense);
+           VorlPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray,out hit))
+            {
+                x = hit.point.x;
+                weapon.LookAt(hit.point);
+            }
+
+            //weapon.Rotate(Vector3.right, Input.GetAxis("Mouse Y") * Time.deltaTime * mouseSense);
 
         }
         else

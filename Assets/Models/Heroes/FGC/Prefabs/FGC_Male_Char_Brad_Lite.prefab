@@ -1936,6 +1936,7 @@ GameObject:
   - component: {fileID: 456320577}
   - component: {fileID: 740548716}
   - component: {fileID: 740548717}
+  - component: {fileID: 839870876}
   m_Layer: 0
   m_Name: FGC_Male_Char_Brad_Lite
   m_TagString: Player
@@ -2077,7 +2078,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DebugPoint: {fileID: 0}
-  IsAiming: 0
   IsRunning: 0
   WalkSpeed: 3
   RunSpeed: 9
@@ -2093,6 +2093,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d439c04dceb6056888f5ec006ec04532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &839870876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58c512fdd15a314c852c9965fc50399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  weapon: {fileID: 4612570907201378}
+  mouseSense: 150
+  isAiming: 0
 --- !u!1 &177814
 GameObject:
   m_ObjectHideFlags: 0
