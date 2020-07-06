@@ -9,6 +9,7 @@ TagManager:
   - Wolf
   - Stuff
   - Useful
+  - InventoryManager
   layers:
   - Default
   - TransparentFX
