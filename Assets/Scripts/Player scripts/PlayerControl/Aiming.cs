@@ -7,6 +7,9 @@ public class Aiming : MonoBehaviour
    
     public Transform weapon;
     private float ray_lenght = 100f;
+    private float X;
+    private float Y;
+    private Vector3 mouse;
 
     void Start()
     {
@@ -21,13 +24,16 @@ public class Aiming : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit));
         Rotation();
-
+        
     }
 
     private void Rotation ()
     {
-       
+        mouse =  Input.mousePosition;
+        X = mouse.x;
+        Y = mouse.y;
 
+        weapon.rotation = Quaternion.Euler(X, Y, 0);
         
     }
   
