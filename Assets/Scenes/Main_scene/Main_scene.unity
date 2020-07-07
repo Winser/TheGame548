@@ -4804,6 +4804,19 @@ MonoBehaviour:
     \u0437\u043D\u0430\u043D\u0438\u0439"
   pathIcon: Icon/book
   pathPrefab: Prefabs/BookLargeHQBlue
+--- !u!65 &1886977643
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886977637}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.45527905, y: 0.14348426, z: 0.5489602}
+  m_Center: {x: -0.00015112758, y: 0.058565553, z: -0.0015100241}
 --- !u!224 &1931139730 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2212030960433712531, guid: 72d48227fa0378e438d22fe81ed74101,
