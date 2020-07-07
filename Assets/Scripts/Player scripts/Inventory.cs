@@ -9,6 +9,7 @@ public class Inventory : MonoBehaviour
     public GameObject cellContainer;
     public GameObject InventoryAll;
     public KeyCode ShowInventory;
+    public KeyCode takeButton;
     void Start()
     {
         item = new List<Item>();
@@ -25,7 +26,28 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(ShowInventory))
+        ToggleInventory();
+        if (Input.GetKeyDown(takeButton))
+        {
+            //Изменить луч
+            Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
+            //
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, 2f))
+            {
+                if (hit.collider.GetComponent<Item>())
+                {
+                    for (int i = 0; i < item.Count;)
+                    {
+
+                    }
+                }
+            }
+        }
+    }
+    void ToggleInventory()
+    {
+        if (Input.GetKeyDown(ShowInventory))
         {
             if (InventoryAll.activeSelf)
             {
