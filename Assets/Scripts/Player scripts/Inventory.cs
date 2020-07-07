@@ -39,7 +39,12 @@ public class Inventory : MonoBehaviour
                 {
                     for (int i = 0; i < item.Count;)
                     {
-
+                        if (item[i].id == 0)
+                        {
+                            item[i] = hit.collider.GetComponent<Item>();
+                            Destroy(hit.collider.GetComponent<Item>().gameObject);
+                            break;
+                        }
                     }
                 }
             }
@@ -58,5 +63,9 @@ public class Inventory : MonoBehaviour
                 InventoryAll.SetActive(true);
             }
         }
+    }
+    void DisplayItem()
+    {
+
     }
 }
