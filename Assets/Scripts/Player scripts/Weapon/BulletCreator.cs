@@ -10,7 +10,14 @@ public class BulletCreator : MonoBehaviour
     public float BulletVelocity = 20f;
     public bool is_automatic = false;
     public static bool IsAiming = false;
-    public int Ammo = 25;
+    public int Ammo;
+    public int MaxAmmo = 5;
+
+
+    private void Start()
+    {
+        Ammo = MaxAmmo;
+    }
     //cool donw timer
     public static float CD;
    
@@ -52,7 +59,7 @@ public class BulletCreator : MonoBehaviour
     {
         if (Input.GetKeyDown("r"))
         {
-            Ammo = 25;
+            Ammo = MaxAmmo;
             Shell.gameObject.SetActive(true);
             GameObject.Find("Reload_sound").GetComponent<AudioSource>().Play();
             CD = 0;
