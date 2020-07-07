@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
@@ -37,7 +38,7 @@ public class Inventory : MonoBehaviour
             {
                 if (hit.collider.GetComponent<Item>())
                 {
-                    for (int i = 0; i < item.Count;)
+                    for (int i = 0; i < item.Count; i++)
                     {
                         if (item[i].id == 0)
                         {
@@ -66,6 +67,20 @@ public class Inventory : MonoBehaviour
     }
     void DisplayItem()
     {
-
+        for (int i = 0; i < item.Count; i++)
+        {
+            Transform cell = cellContainer.transform.GetChild(i);
+            Transform icon = cell.GetChild(0);
+            Image img = icon.GetComponent<Image>();
+            if (item[i].id != 0)
+            {
+                img.enabled = true;
+                img.sprite = Resources.Load<Sprite>(item[i].pathIcon);
+            }
+            else
+            {
+                img.enabled = false;
+            }
+        }
     }
 }
