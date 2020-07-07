@@ -12,24 +12,32 @@ public class CharacterMove : MonoBehaviour
     {
         this._playerData = GetComponent<PlayerData>();
         this._pathLine = new GameObject("PathLine").AddComponent<LineRenderer>();
-        
+        this._playerData.InputController.leftMouseDown += this.OnLeftMouseDown;
     }
 
     void Update()
     {
-        MovableCharacter character;
-        _playerData.selectedCharacter.TryGetComponent<MovableCharacter>(out character);
-        if (character) {
-            Vector3? mouseTargetPosition = Mouse.GetTargetPoint(this._playerData.selectedCamera);
-            if (mouseTargetPosition != null) {
-                if (Input.GetMouseButton(0)) {
-                    character.Move((Vector3)mouseTargetPosition);
-                }
+        if (_playerData.SelectedCharacter == null) return;
 
+        MovableCharacter character;
+        _playerData.SelectedCharacter.TryGetComponent<MovableCharacter>(out character);
+        if (character) {
+            Vector3? mouseTargetPosition = Mouse.GetTargetPoint(this._playerData.SelectedCamera);
+            if (mouseTargetPosition != null) {
                 DrawPath(character, (Vector3)mouseTargetPosition);
             }
         }
+    }
 
+    private void OnLeftMouseDown(MouseEventArgs e)
+    {
+        if (_playerData.SelectedCharacter == null) return;
+
+        MovableCharacter character;
+        _playerData.SelectedCharacter.TryGetComponent<MovableCharacter>(out character);
+        if (character && e.TargetObject.tag == "Tera") {
+            character.Move((Vector3)e.TargetPoint);
+        }
     }
 
     private void DrawPath(MovableCharacter character, Vector3 mouseTargetPosition)

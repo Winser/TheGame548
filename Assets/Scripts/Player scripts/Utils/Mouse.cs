@@ -4,19 +4,19 @@ using UnityEngine;
 
 public static class Mouse
 {
-    public static Vector3 GetMouseOnScreenPosition(Camera camera)
+    public static Vector3 GetMousePositionOnScreen()
     {
         return Input.mousePosition + new Vector3(0, 0, 1);
     }
-    public static Vector3 GetMouseOnWorldPosition(Camera camera)
+    public static Vector3 GetMousePositionOnWorld(Camera camera)
     {
-        return camera.ScreenToWorldPoint(Mouse.GetMouseOnScreenPosition(camera));
+        return camera.ScreenToWorldPoint(Mouse.GetMousePositionOnScreen());
     }
 
     public static RaycastHit? GetHit(Camera camera)
     {
         
-        Vector3 mouseOnScreenPosition = Mouse.GetMouseOnScreenPosition(camera);
+        Vector3 mouseOnScreenPosition = Mouse.GetMousePositionOnScreen();
         Vector3 mouseOnWorldPosition = camera.ScreenToWorldPoint(mouseOnScreenPosition);
         Vector3 mouseDirection = mouseOnWorldPosition - camera.transform.position;
         Ray ray = new Ray(camera.transform.position, mouseDirection);

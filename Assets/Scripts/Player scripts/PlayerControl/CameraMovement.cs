@@ -55,8 +55,8 @@ public class CameraMovement : MonoBehaviour
 
     private void SetCameraPosition()
     {
-        ControlledСharacter character = this._playerData.selectedCharacter;
-        Camera camera = this._playerData.selectedCamera;
+        ControlledСharacter character = this._playerData.SelectedCharacter;
+        Camera camera = this._playerData.SelectedCamera;
         if (character && camera) {
             float horisontalDistance = this.Distance * Mathf.Cos(Mathf.Deg2Rad * this.VerticalAngle);
             
