@@ -76,11 +76,16 @@ public class Inventory : MonoBehaviour
         {
             Transform cell = cellContainer.transform.GetChild(i);
             Transform icon = cell.GetChild(0);
+            Transform count = icon.GetChild(0);
+
+
+            Text txt = count.GetComponent<Text>();
             Image img = icon.GetComponent<Image>();
             if (item[i].id != 0)
             {
                 img.enabled = true;
                 img.sprite = Resources.Load<Sprite>(item[i].pathIcon);
+                txt.text = item[i].countItem.ToString();
             }
             else
             {
