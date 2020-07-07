@@ -31,10 +31,14 @@ public class Inventory : MonoBehaviour
         if (Input.GetKeyDown(takeButton))
         {
             //Изменить луч
-            Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
+            //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            //Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
+
+            Ray ray = Camera.main.ScreenPointToRay(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1));
             //
+
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, 2f))
+            if (Physics.Raycast(ray, out hit, 20f))
             {
                 if (hit.collider.GetComponent<Item>())
                 {
@@ -43,6 +47,7 @@ public class Inventory : MonoBehaviour
                         if (item[i].id == 0)
                         {
                             item[i] = hit.collider.GetComponent<Item>();
+                            DisplayItems();
                             Destroy(hit.collider.GetComponent<Item>().gameObject);
                             break;
                         }
@@ -65,7 +70,7 @@ public class Inventory : MonoBehaviour
             }
         }
     }
-    void DisplayItem()
+    void DisplayItems()
     {
         for (int i = 0; i < item.Count; i++)
         {
@@ -80,6 +85,7 @@ public class Inventory : MonoBehaviour
             else
             {
                 img.enabled = false;
+                img.sprite = null;
             }
         }
     }
