@@ -47,6 +47,7 @@ public class Inventory : MonoBehaviour
                         if (item[i].id == 0)
                         {
                             item[i] = hit.collider.GetComponent<Item>();
+                            item[i].countItem = 1;
                             DisplayItems();
                             Destroy(hit.collider.GetComponent<Item>().gameObject);
                             break;
