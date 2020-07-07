@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameItem: "\u041C\u0435\u0447"
-  id: 1
+  id: 2
   countItem: 0
   isStackable: 0
   descriptionItem: "\u0425\u043E\u043B\u043E\u0434\u043D\u043E\u0435 \u043E\u0440\u0443\u0436\u0438\u0435"
