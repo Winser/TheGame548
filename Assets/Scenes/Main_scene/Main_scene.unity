@@ -3342,6 +3342,25 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1330716065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330716059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c864b3f7018c6124ea1ea86a359ee0a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameItem: "\u041C\u0435\u0447"
+  id: 2
+  countItem: 0
+  isStackable: 0
+  descriptionItem: "\u0425\u043E\u043B\u043E\u0434\u043D\u043E\u0435 \u043E\u0440\u0443\u0436\u0438\u0435"
+  pathIcon: Icon/SantokuKnife
+  pathPrefab: Prefabs/WarCleave
 --- !u!65 &1330716066
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3583,6 +3602,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 355c7b14128267f398e8d41a0992fb73, type: 3}
+--- !u!1 &1557491134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 7403108ff56d5434b979be4a448a594d,
+    type: 3}
+  m_PrefabInstance: {fileID: 774702281}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1557491135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557491134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c864b3f7018c6124ea1ea86a359ee0a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameItem: 
+  id: 0
+  countItem: 0
+  isStackable: 0
+  descriptionItem: 
+  pathIcon: 
+  pathPrefab: 
 --- !u!1 &1559594674 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5348036364721850135, guid: 72d48227fa0378e438d22fe81ed74101,
@@ -4640,6 +4684,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbc90bee5eabf274682aec1caf5aa414, type: 3}
+--- !u!1 &1886977637 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 7403108ff56d5434b979be4a448a594d,
+    type: 3}
+  m_PrefabInstance: {fileID: 322770584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1886977638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886977637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c864b3f7018c6124ea1ea86a359ee0a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameItem: "\u041A\u043D\u0438\u0433\u0430"
+  id: 1
+  countItem: 0
+  isStackable: 1
+  descriptionItem: "\u041A\u043D\u0438\u0433\u0430 \u043D\u0435\u0438\u0441\u0447\u0435\u0440\u043F\u0430\u0435\u043C\u044B\u0445
+    \u0437\u043D\u0430\u043D\u0438\u0439"
+  pathIcon: Icon/book
+  pathPrefab: Prefabs/BookLargeHQBlue
 --- !u!224 &1931139730 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2212030960433712531, guid: 72d48227fa0378e438d22fe81ed74101,
@@ -4996,6 +5066,7 @@ MonoBehaviour:
   cellContainer: {fileID: 1559594674}
   InventoryAll: {fileID: 563706117}
   ShowInventory: 113
+  takeButton: 0
 --- !u!222 &2075027119
 CanvasRenderer:
   m_ObjectHideFlags: 0
