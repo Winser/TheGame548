@@ -814,6 +814,106 @@ PrefabInstance:
       propertyPath: Ammo
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3815477664751689015, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815477664751689015, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6816172236164787776, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6816172236164787776, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8227306395705216948, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: far clip plane
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_RenderingPath
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_HDR
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_AllowMSAA
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_AllowDynamicResolution
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_TargetEye
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.18743324
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.3053182
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.49056602
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 0.5803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: 090d43a15f3c779478e0309a84d0d9dd, type: 2}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070087709040040350, guid: 3081e3e8a9dc83640bd9bb991640c305,
+        type: 3}
+      propertyPath: m_FOVAxisMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3081e3e8a9dc83640bd9bb991640c305, type: 3}
 --- !u!1001 &560772683
@@ -2199,6 +2299,11 @@ PrefabInstance:
         type: 3}
       propertyPath: far clip plane
       value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358299038770801369, guid: 72d48227fa0378e438d22fe81ed74101,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 1358299038770801371, guid: 72d48227fa0378e438d22fe81ed74101,
         type: 3}
