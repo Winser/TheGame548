@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7962295762524159174}
   - component: {fileID: 7962295762523061766}
   - component: {fileID: 7962295762514262278}
+  - component: {fileID: -5816013948648044417}
   m_Layer: 0
   m_Name: BookLargeHQBlue
   m_TagString: Untagged
@@ -95,3 +96,23 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &-5816013948648044417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7962295762525249734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c864b3f7018c6124ea1ea86a359ee0a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameItem: "\u041A\u043D\u0438\u0433\u0430"
+  id: 0
+  countItem: 0
+  isStackable: 1
+  descriptionItem: "\u041A\u043D\u0438\u0433\u0430 \u043D\u0435\u0438\u0441\u0447\u0435\u0440\u043F\u0430\u0435\u043C\u044B\u0445
+    \u0437\u043D\u0430\u043D\u0438\u0439"
+  pathIcon: Icon/book
+  pathPrefab: Prefabs/BookLargeHQBlue
