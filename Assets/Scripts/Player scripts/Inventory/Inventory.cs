@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
-    
+
     List<Item> item;
     public GameObject cellContainer;
     public GameObject InventoryAll;
@@ -57,6 +57,32 @@ public class Inventory : MonoBehaviour
             }
         }
     }
+    //void AddStackableItem(Item currentItem)
+    //{
+    //    for (int i = 0; i < item.Count; i++)
+    //    {
+        //        if (item[i].id == currentItem.id)
+        //    {
+        //        item[i].countItem++;
+        //        DisplayItems();
+        //        Destroy(currentItem.gameObject);
+        //    }
+         //}
+    //}
+    //void AddUnstackableItem()
+    //{
+    //    for (int i = 0; i < item.Count; i++)
+    //    {
+    //        if (item[i].id == 0)
+    //        {
+    //            item[i] = hit.collider.GetComponent<Item>();
+    //            item[i].countItem = 1;
+    //            DisplayItems();
+    //            Destroy(hit.collider.GetComponent<Item>().gameObject);
+    //            break;
+    //        }
+    //    }
+    //}
     void ToggleInventory()
     {
         if (Input.GetKeyDown(ShowInventory))
