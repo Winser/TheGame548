@@ -25179,6 +25179,7 @@ MonoBehaviour:
   RightArm: {fileID: 180408}
   LeftLeg: {fileID: 180458}
   RightLeg: {fileID: 180448}
+  Ragdoll: {fileID: 1422354246014763664, guid: 42567b9a613009e4cb1a8e0de47873b7, type: 3}
 --- !u!65 &2137622281
 BoxCollider:
   m_ObjectHideFlags: 0
