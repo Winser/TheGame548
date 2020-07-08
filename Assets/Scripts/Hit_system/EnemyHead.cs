@@ -16,6 +16,6 @@ public class EnemyHead : MonoBehaviour
     {
         hp -=  Dmg * Armor;
         Debug.Log(hp);
-       
     }
+   
 }
