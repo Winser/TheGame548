@@ -35,9 +35,25 @@ public class MovableCharacter : MonoBehaviour
         this._navMeshAgent = gameObject.AddComponent(typeof(NavMeshAgent)) as NavMeshAgent;
        
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown("2"))
+        {
+            if (!IsRunning)
+            {
+                IsRunning = true;
+            }
+            else
+            {
+                IsRunning = false;
+            }
+
+        }
+    }
 
     void FixedUpdate()
     {
+       
         if (tag == "Player")
         {
             this.Timer();
@@ -110,7 +126,7 @@ public class MovableCharacter : MonoBehaviour
     private void MoveToTarget()
     {
         Vector3 toTarget = (Vector3)this.NextPathPoint - transform.position;
-
+       
         if (this._animationController) {
             if (this.IsRunning) {
                 this._animationController.Play("Running");

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class IsDead : MonoBehaviour
 {
     public bool dead = false;
@@ -13,6 +12,7 @@ public class IsDead : MonoBehaviour
     public GameObject RightArm;
     public GameObject LeftLeg;
     public GameObject RightLeg;
+    public GameObject Ragdoll;
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -33,10 +33,14 @@ public class IsDead : MonoBehaviour
         if (dead && tag == "Player")
         {
             anim.Play("Dying");
+            tag = "Dead";
         }
         if(dead && tag == "Wolf")
         {
             anim.Play("dead");
+            tag = "Dead";
+            Instantiate(Ragdoll,transform.position,transform.rotation);
+            Destroy(gameObject);
         }
     }
 
