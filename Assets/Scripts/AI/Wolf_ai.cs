@@ -16,7 +16,7 @@ public class Wolf_ai : MonoBehaviour
    // private float timer;
     void Start()
     {
-        visibility_radius = 20f;
+        visibility_radius = 40f;
         player_pos = GameObject.Find("FGC_Male_Char_Brad_Lite");
         nav = GetComponent<NavMeshAgent>();
         animator = gameObject.GetComponent<Animator>();
