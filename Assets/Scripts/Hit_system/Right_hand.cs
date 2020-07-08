@@ -7,6 +7,7 @@ public class Right_hand : MonoBehaviour
     public float hp;
     public float Armor = 1;
     public GameObject unit;
+    private float DMG = 12;
     private void Start()
     {
         hp = unit.GetComponent<Health_sys>().right_arm;
@@ -16,5 +17,12 @@ public class Right_hand : MonoBehaviour
     {
         hp -= Dmg * Armor;
         Debug.Log(hp);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "WolfAttack")
+        {
+            OnHit(DMG);
+        }
     }
 }

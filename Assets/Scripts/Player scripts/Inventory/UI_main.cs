@@ -29,5 +29,6 @@ public class UI_main : MonoBehaviour
         GUI.Label(new Rect(0, 100, 300, 25), "Right mouse button hold - camera rotation");
         GUI.Label(new Rect(0, 125, 300, 25), "Scroll down/up - approximation/estrangement");
         GUI.Label(new Rect(0, 150, 200, 25), "Q - inventory");
+        GUI.Label(new Rect(0, 175, 200, 25), "2 - run");
     }
 }

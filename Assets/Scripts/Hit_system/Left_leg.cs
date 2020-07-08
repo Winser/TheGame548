@@ -6,6 +6,7 @@ public class Left_leg : MonoBehaviour
 {
     public float hp;
     public float Armor = 1;
+    private float DMG = 15;
     public GameObject unit;
     private void Start()
     {
@@ -16,5 +17,12 @@ public class Left_leg : MonoBehaviour
     {
         hp -= Dmg * Armor;
         Debug.Log(hp);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "WolfAttack")
+        {
+            OnHit(DMG);
+        }
     }
 }

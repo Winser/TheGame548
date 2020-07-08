@@ -2081,7 +2081,7 @@ MonoBehaviour:
   DebugPoint: {fileID: 0}
   IsRunning: 0
   WalkSpeed: 3
-  RunSpeed: 9
+  RunSpeed: 4.5
 --- !u!114 &740548717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2837,8 +2837,8 @@ Camera:
   m_GameObject: {fileID: 3815477664751689015}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.18743324, g: 0.3053182, b: 0.49056602, a: 0.5803922}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2852,7 +2852,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 10
   field of view: 16
   orthographic: 0
   orthographic size: 5
@@ -2860,7 +2860,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 0
   m_TargetTexture: {fileID: 8400000, guid: 090d43a15f3c779478e0309a84d0d9dd, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -2868,7 +2868,7 @@ Camera:
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!1 &8227306395705216948
@@ -2881,7 +2881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8807101881420487190}
   - component: {fileID: 6816172236164787776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2896,7 +2896,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8227306395705216948}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 7.4}
+  m_LocalPosition: {x: 3.54, y: 4.09, z: 5.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 480080}
@@ -2915,7 +2915,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 50
+  m_Range: 32
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -2986,6 +2986,14 @@ PrefabInstance:
       propertyPath: Shell
       value: 
       objectReference: {fileID: 401937228}
+    - target: {fileID: 1482349433, guid: cad07940ee7c44f419bbedb32b966f78, type: 3}
+      propertyPath: Ammo
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482349433, guid: cad07940ee7c44f419bbedb32b966f78, type: 3}
+      propertyPath: MaxAmmo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1536406242, guid: cad07940ee7c44f419bbedb32b966f78, type: 3}
       propertyPath: m_Convex
       value: 1
