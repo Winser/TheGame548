@@ -12,10 +12,6 @@ public class Ui_script : MonoBehaviour
     public GameObject menu;
     public GameObject fader_set_off;
     private float timer;
-    void Start() 
-    {
-       
-    }
 
     // Update is called once per frame
     void Update()
